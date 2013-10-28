@@ -7,18 +7,44 @@
 //
 
 #import "COINSViewController.h"
+#import "Equation.h"
 
 @interface COINSViewController ()
 
 @end
 
-@implementation COINSViewController
+@implementation COINSViewController{
+
+}
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+
+
+    
+    srand(time(nil));
+    int n1 = rand()%50 + 1;
+    int n2 = rand()%50 + 1;
+    
+    
+    NSInteger answer;
+    Equation *equation = [[Equation alloc] init];
+    answer = [equation finish:n1 :n2];
+    
+    NSLog(@"%d",n1);
+    NSLog(@"%d",n2);
+    NSLog(@"%d",answer);
+    
+    UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(0, 500, 600, 100)];
+    label.text = [NSString stringWithFormat:@"%d",n1];//x + n1 = n2 を表示したいよー;
+    label.textAlignment = NSTextAlignmentCenter;
+    label.textColor =[ UIColor redColor];
+    [self.view addSubview:label];
+
 }
+
 
 - (void)didReceiveMemoryWarning
 {

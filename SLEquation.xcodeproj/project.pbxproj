@@ -22,6 +22,7 @@
 		62286C391818D5EA00CF1917 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62286C181818D5EA00CF1917 /* UIKit.framework */; };
 		62286C411818D5EA00CF1917 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 62286C3F1818D5EA00CF1917 /* InfoPlist.strings */; };
 		62286C431818D5EA00CF1917 /* SLEquationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62286C421818D5EA00CF1917 /* SLEquationTests.m */; };
+		62D83DF61818F95400293D9D /* Equation.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D83DF51818F95400293D9D /* Equation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		62286C3E1818D5EA00CF1917 /* SLEquationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SLEquationTests-Info.plist"; sourceTree = "<group>"; };
 		62286C401818D5EA00CF1917 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		62286C421818D5EA00CF1917 /* SLEquationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLEquationTests.m; sourceTree = "<group>"; };
+		62D83DF41818F95400293D9D /* Equation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Equation.h; sourceTree = SOURCE_ROOT; };
+		62D83DF51818F95400293D9D /* Equation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Equation.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				62286C291818D5EA00CF1917 /* Main_iPad.storyboard */,
 				62286C2C1818D5EA00CF1917 /* COINSViewController.h */,
 				62286C2D1818D5EA00CF1917 /* COINSViewController.m */,
+				62D83DF41818F95400293D9D /* Equation.h */,
+				62D83DF51818F95400293D9D /* Equation.m */,
 				62286C2F1818D5EA00CF1917 /* Images.xcassets */,
 				62286C1B1818D5EA00CF1917 /* Supporting Files */,
 			);
@@ -257,6 +262,7 @@
 				62286C211818D5EA00CF1917 /* main.m in Sources */,
 				62286C2E1818D5EA00CF1917 /* COINSViewController.m in Sources */,
 				62286C251818D5EA00CF1917 /* COINSAppDelegate.m in Sources */,
+				62D83DF61818F95400293D9D /* Equation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,6 +481,7 @@
 				62286C481818D5EA00CF1917 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		62286C491818D5EA00CF1917 /* Build configuration list for PBXNativeTarget "SLEquationTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +490,7 @@
 				62286C4B1818D5EA00CF1917 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
