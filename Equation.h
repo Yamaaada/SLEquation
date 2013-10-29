@@ -10,6 +10,7 @@
 
 @interface Equation : NSObject
 
-- (NSInteger)finish:(NSInteger)a:(NSInteger)b;
+// メソッド名にaやbの属性や性質を記述するようにしましょう
+- (NSInteger)finishWithInteger:(NSInteger)a WithInteger:(NSInteger)b;
 
 @end

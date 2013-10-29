@@ -10,7 +10,7 @@
 
 @implementation Equation
 
-- (NSInteger)finish:(NSInteger)a :(NSInteger)b
+- (NSInteger)finishWithInteger:(NSInteger)a WithInteger:(NSInteger)b
 {
     return b - a;
 }
