@@ -38,7 +38,7 @@
     NSLog(@"%d",answer);
     
     UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(0, 500, 600, 100)];
-    label.text = [NSString stringWithFormat:@"%d",n1];//x + n1 = n2 を表示したいよー;
+    label.text = [NSString stringWithFormat:@"%d",n1];//x + n1 = n2 を表示したいよー
     label.textAlignment = NSTextAlignmentCenter;
     label.textColor =[ UIColor redColor];
     [self.view addSubview:label];
